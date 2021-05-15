@@ -54,6 +54,10 @@ img {
   margin-right: 1rem;
 }
 
+.outerSol {
+  display: flex;
+  justify-content: center;
+}
 
 .workCentral {
   display: flex;
