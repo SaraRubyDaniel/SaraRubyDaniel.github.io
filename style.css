@@ -40,6 +40,7 @@ body::-webkit-scrollbar-thumb {
   margin: 1rem;
   padding: 1rem;
   padding-right: .1rem;
+  margin-right: 0.1rem;
   width: 80%;
 }
 
@@ -52,6 +53,34 @@ img {
   float: left;
   margin-right: 1rem;
 }
+
+
+.workCentral {
+  display: flex;
+  min-height: 15rem;
+  align-items: center;  
+  justify-content: space-around;
+  flex-direction: column;
+  /* margin-left: 5rem; */
+}
+
+.job1 {
+  border: #141418;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -78,10 +107,17 @@ img {
 }
 
 p{
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   margin-top: 1rem;
   padding: 1rem;
+  /* padding-right: 0.1rem; */
 }
+
+.textDiv {
+  max-width: 80%;
+  min-width: 20%;
+}
+
 .navbar-nav {
   list-style: none;
   padding: 0;
